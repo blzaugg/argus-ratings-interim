@@ -1,0 +1,18 @@
+name: Argus Ratings
+markdown: redcarpet
+baseurl: ""
+exclude: [
+  .git,
+  .gitignore,
+  .DS_Store,
+  CNAME,
+  svg,
+  scss,
+  .sass-cache,
+  package.json,
+  Gruntfile.js,
+  node_modules,
+  readme.md
+]
+
+excerpt_separator: <!--more-->
