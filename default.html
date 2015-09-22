@@ -1,0 +1,25 @@
+{% include doctype-and-head.html %}
+
+<body class="{% if page.url == "/index.html" %}home{% endif %}">
+	<div id="site">
+		<div id="wrapper">
+			{% include header.html %}
+
+			<article id="content" role="main">
+				<header>
+					<h1>{{ page.title }}</h1>
+				</header>
+
+				<div class="content">
+					{{ content }}
+				</div>
+			<!-- #content -->
+
+			{% include footer.html %}
+		</div>
+		<!-- / #wrapper -->
+	</div>
+	<!-- / #site -->
+</body>
+
+</html>
