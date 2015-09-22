@@ -21,56 +21,7 @@
 	</div>
 	<!-- / #site -->
 	
-	<script>
-		(function(){
-  		"use strict";
-  		
-			var argusColors = {
-				pupil: '#000033',
-				sclera: '#feff6d',
-				liner: '#000033'
-			};
-			
-			var containerNode1 = $('#Logo1 .name');
-			
-			argusLogo.eye({
-				color: argusColors,
-				container: argusLogo.container(containerNode1),
-				posX: 58,
-				posY: 30,
-				diameter: 16,
-				render: true,
-				gloss: false,
-				pupilDirection: 'rightBottom',
-				animateInterval: 32
-			});
-		
-			argusLogo.eye({
-				color: argusColors,
-				container: argusLogo.container(containerNode1),
-				posX: 195,
-				posY: 30,
-				diameter: 16,
-				render: true,
-				gloss: false,
-				pupilDirection: 'bottom',
-				animateInterval: 32
-			});
-		
-			argusLogo.eye({
-				color: argusColors,
-				container: argusLogo.container(containerNode1),
-				posX: 293,
-				posY: 30,
-				diameter: 16,
-				render: true,
-				gloss: false,
-				pupilDirection: 'leftBottom',
-				animateInterval: 32
-			});
-			
-		})();
-	</script>
+	{% include argus-logo-script.html %}
 </body>
 
 </html>
