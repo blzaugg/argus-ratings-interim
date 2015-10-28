@@ -17,12 +17,13 @@ body, html {
 }
 
 .logo {
-	margin: 1em 0;
+	margin: 1em auto;
 	font-size: 24px;
 	font-family: 'Poppins';
 	white-space: nowrap;
 	cursor: default;
-	display: inline-block;
+	display: block;
+	width: 355px;
 }
 
 .logo a {
