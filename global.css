@@ -56,3 +56,22 @@ body, html {
 	line-height: normal;
 }
 /* BS Overrides */
+
+/* BS Theme */
+#content h1 {
+	color: rgb(142,139,189);
+}
+
+body #content {
+	color: rgb(255,255,204);
+}
+
+#content a {
+	color: #d08129;
+	text-decoration: underline;
+}
+#content a:focus, #content a:hover {
+	color: #d08129;
+	text-decoration: underline;
+}
+/* BS Theme */
