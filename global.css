@@ -19,7 +19,7 @@ body, html {
 
 .logo {
 	margin: 1em;
-	font-size: 1.5em;
+	font-size: 24px;
 	font-family: 'Poppins';
 	white-space: nowrap;
 	cursor: default;
@@ -46,3 +46,13 @@ body, html {
 	font-size: 0.95em;
 	font-weight: 400;
 }
+
+/* BS Overrides */
+.logo * { 
+	box-sizing: content-box;
+}
+
+.logo h2 {
+	line-height: normal;
+}
+/* BS Overrides */
