@@ -58,8 +58,33 @@ body, html {
 /* BS Overrides */
 
 /* BS Theme */
-#content h1 {
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6
+{
 	color: rgb(142,139,189);
+}
+
+#content h1 {
+	font-size: 30px;
+}
+#content h2 {
+	font-size: 24px;
+}
+#content h3 {
+	font-size: 18px;
+}
+#content h4 {
+	font-size: 14px;
+}
+#content h5 {
+	font-size: 12px;
+}
+#content h6 {
+	font-size: 12px;
 }
 
 body #content {
