@@ -100,3 +100,9 @@ body #content {
 	text-decoration: underline;
 }
 /* BS Theme */
+
+@media (max-width: 768px) {
+	#content {
+		margin: 0 1em;	
+	}
+}
