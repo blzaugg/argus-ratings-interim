@@ -8,6 +8,10 @@ body, html {
 	padding: 0;
 }
 
+body {
+	max-width: 745px;
+}
+
 #Logo1 {
 	/*position: absolute;*/
 	/*top: 40%;*/
@@ -101,8 +105,6 @@ body #content {
 }
 /* BS Theme */
 
-@media (max-width: 768px) {
-	#content {
-		margin: 0 1em;	
-	}
+#content {
+	margin: 0 1em;	
 }
