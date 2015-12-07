@@ -12,7 +12,7 @@ body {
 	max-width: 745px;
 }
 
-@media (min-width: 768px)
+@media (min-width: 992px) {
 	body {
 		background-attachment: fixed;
 		background-image: url(/images/site-background-tile.jpg);
