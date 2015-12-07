@@ -1,8 +1,12 @@
 ---
 ---
 
-html, body, #site, #wrapper {
-	min-height: 100%;
+html {
+	/*min-height: 100%;*/
+}
+
+body, #site, #wrapper {
+	height: 100%;
 }
 
 html, body {
