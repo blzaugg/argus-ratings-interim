@@ -12,7 +12,7 @@ body {
 	max-width: 745px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 	body {
 		background-attachment: fixed;
 		background-image: url(/images/site-background-tile.jpg);
@@ -21,11 +21,19 @@ body {
 	}
 }
 
+#header {
+	overflow: hidden;
+}
 #wrapper {
 	background-color: #8e8bbd;
 	background-color: rgba(46, 46, 92, 0.8);
-	border-left: solid 1px #8e8bbd;
-	border-right: solid 1px #8e8bbd;
+}
+
+@media (min-width: 768px) {
+	#wrapper {
+		border-left: solid 1px #8e8bbd;
+		border-right: solid 1px #8e8bbd;
+	}
 }
 
 #Logo1 {
