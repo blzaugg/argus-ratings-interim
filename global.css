@@ -2,14 +2,30 @@
 ---
 
 body, html {
-  background: #000033;
-  height: 100%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 body {
+	background-color: #000033;
 	max-width: 745px;
+}
+
+@media (min-width: 768px)
+	body {
+		background-attachment: fixed;
+		background-image: url(/images/site-background-tile.jpg);
+		background-position: 50% top;
+		background-repeat: repeat;
+	}
+}
+
+#wrapper {
+	background-color: #8e8bbd;
+	background-color: rgba(46, 46, 92, 0.8);
+	border-left: solid 1px #8e8bbd;
+	border-right: solid 1px #8e8bbd;
 }
 
 #Logo1 {
@@ -34,7 +50,7 @@ body {
 	display: block;
 	text-decoration: none;
 }
-	
+
 .logo .name {
 	font-size: 2em;
 	margin: 0 0 -0.25em 0;
@@ -52,7 +68,7 @@ body {
 }
 
 /* BS Overrides */
-.logo * { 
+.logo * {
 	box-sizing: content-box;
 }
 
@@ -106,5 +122,5 @@ body #content {
 /* BS Theme */
 
 #content {
-	margin: 0 1em;	
+	margin: 0 1em;
 }
