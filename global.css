@@ -1,23 +1,11 @@
 ---
 ---
 
-html {
+.full-height-ancestor {
 	height: 100%;
-	/*min-height: 100%;*/
 }
 
-body {
-	height: 100%;
-	/*min-height: 100%;*/
-}
-
-#site {
-	height: 100%;
-	/*min-height: 100%;*/
-}
-
-#wrapper {
-	/*height: 100%;*/
+.full-height-target {
 	min-height: 100%;
 }
 
