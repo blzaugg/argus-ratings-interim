@@ -100,7 +100,7 @@ body {
 #content h5,
 #content h6
 {
-	color: rgb(142,139,189);
+	color: #8E8BBD;
 }
 
 #content h1 {
@@ -123,7 +123,7 @@ body {
 }
 
 body #content {
-	color: rgb(255,255,204);
+	color: #FFFFCC;
 }
 
 #content a {
